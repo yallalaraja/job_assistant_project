@@ -1,0 +1,73 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+.env/
+.venv/
+
+# Environment Variables
+.env
+.env.*
+
+# SQLite Database
+*.db
+*.sqlite3
+
+# FastAPI / Uvicorn
+*.log
+
+# Playwright
+playwright/.cache/
+playwright-report/
+test-results/
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+
+# Pytest
+.pytest_cache/
+coverage/
+htmlcov/
+
+# Mypy
+.mypy_cache/
+
+# Ruff / Lint
+.ruff_cache/
+
+# Build Files
+build/
+dist/
+*.egg-info/
+
+# Temporary Files
+tmp/
+temp/
+
+# PDF Resumes Uploads
+uploads/
+resumes/
+
+# Node Modules (if frontend added later)
+node_modules/
+
+# Docker
+*.pid
+
+# Cache
+.cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+logs/
+*.log
