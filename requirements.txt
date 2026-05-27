@@ -4,3 +4,6 @@ playwright
 requests
 beautifulsoup4
 apscheduler
+pdfplumber
+scikit-learn
+sentence-transformers

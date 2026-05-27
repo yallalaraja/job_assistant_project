@@ -27,9 +27,9 @@ def top_ranked_jobs():
 
 
 @router.get("/scrape")
-def scrape_latest_jobs():
+def scrape_latest_jobs(pages: int = 5):
 
-    jobs = scrape_jobs()
+    jobs = scrape_jobs(max_pages=pages)
 
     return {
         "message": "Jobs scraped successfully",

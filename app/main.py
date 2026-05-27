@@ -3,13 +3,16 @@ from fastapi import FastAPI
 from app.routes.jobs import router as jobs_router
 
 from app.db.database import engine, Base
+from app.db.migrations import ensure_job_columns
 
 # Import models
+from app.models.applied_job import AppliedJob
 from app.models.job import Job
 
 
 # Create DB tables
 Base.metadata.create_all(bind=engine)
+ensure_job_columns()
 
 
 app = FastAPI(

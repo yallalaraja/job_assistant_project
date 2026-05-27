@@ -62,4 +62,7 @@ def extract_skills_from_resume(pdf_path):
 
             extracted_skills.add(skill)
 
-    return list(extracted_skills)
+    return {
+        "skills": list(extracted_skills),
+        "resume_text": text
+    }

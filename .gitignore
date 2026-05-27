@@ -2,11 +2,13 @@
 __pycache__/
 *.py[cod]
 *$py.class
+.python-version
 
-# Virtual Environment
+# Virtual Environments
 venv/
-.env/
 .venv/
+env/
+ENV/
 
 # Environment Variables
 .env
@@ -14,7 +16,13 @@ venv/
 
 # SQLite Database
 *.db
+*.db-journal
+*.db-shm
+*.db-wal
 *.sqlite3
+*.sqlite3-journal
+*.sqlite3-shm
+*.sqlite3-wal
 
 # FastAPI / Uvicorn
 *.log
@@ -23,10 +31,15 @@ venv/
 playwright/.cache/
 playwright-report/
 test-results/
+.naukri_browser_profile/
+naukri_playwright_*/
 
 # OS Files
 .DS_Store
 Thumbs.db
+
+# Local Documents / Resumes
+*.pdf
 
 # IDEs
 .vscode/
@@ -71,3 +84,8 @@ node_modules/
 # Logs
 logs/
 *.log
+
+# Local Debug Artifacts
+screenshots/
+debug/
+*.har
