@@ -117,8 +117,8 @@ Expose Results via APIs
 ## 1. Clone Repository
 
 ```bash
-git clone <your-repo-url>
-cd AI-Job-Assistant
+git clone https://github.com/yallalaraja/job_assistant_project.git
+cd job_assistant_project
 ```
 
 ---
